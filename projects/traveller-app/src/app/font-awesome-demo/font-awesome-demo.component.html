@@ -2,10 +2,20 @@
   <h2>Font Awesome Demo</h2>
   <div class="icons-container">
     <fa-icon [icon]="coffeeIcon"></fa-icon>
-    <fa-icon [icon]="filmIcon"></fa-icon>
     <fa-icon [icon]="sStarIcon"></fa-icon>
     <fa-icon [icon]="rStarIcon"></fa-icon>
-    <fa-icon [icon]="downloadIcon"></fa-icon>
+
+    <fa-icon icon="film"></fa-icon>
+    <fa-icon
+      [icon]="['fas', 'film']"
+      [styles]="{ stroke: 'red', color: 'red' }"
+    ></fa-icon>
+    <fa-icon icon="download"></fa-icon>
+    <fa-icon icon="magnifying-glass"></fa-icon>
+
+    <fa-icon icon="address-card"></fa-icon>
+    <fa-icon icon="list-check"></fa-icon>
+    <fa-icon icon="badge-check"></fa-icon>
   </div>
   <div></div>
 </div>

@@ -10,10 +10,17 @@ import { AppComponent } from './app.component';
 import { SharedUiComponentsModule } from 'shared-ui-components';
 
 import {
+  faDownload,
+  faFilm,
+  faMagnifyingGlass,
+} from '@fortawesome/free-solid-svg-icons';
+
+import {
   faAddressCard,
   faListCheck,
   faBadgeCheck,
 } from '@fortawesome/pro-solid-svg-icons';
+
 import { FontAwesomeDemoComponent } from './font-awesome-demo/font-awesome-demo.component';
 
 @NgModule({
@@ -36,6 +43,13 @@ export class AppModule {
   }
 
   private registerIcons() {
-    this.library.addIcons(faAddressCard, faListCheck, faBadgeCheck);
+    this.library.addIcons(
+      faDownload,
+      faFilm,
+      faMagnifyingGlass,
+      faAddressCard,
+      faListCheck,
+      faBadgeCheck
+    );
   }
 }
