@@ -1,0 +1,42 @@
+$primary: #092d3d;
+$accent: #00d3b4;
+$link: #092d3d;
+//$info: $cyan;
+//$success: #33DCC3!important;
+//$warning: $yellow;
+//$danger: $red;
+//$dark: $grey-darker;
+//$text: $grey-dark;
+
+$background: #fff;
+
+$navbar-item-hover-color: none;
+$navbar-item-color: white;
+$navbar-item-active-color: white;
+$menu-item-active-background-color: #eee;
+$menu-item-active-color: #092d3d;
+$navbar-item-hover-background-color: #092d3d;
+$navbar-item-hover-color: white;
+
+$progress-value-background-color: #33dcc3;
+
+$navbar-background-color: #092d3d;
+$navbar-box-shadow-color: #092d3d;
+$navbar-item-hover-background-color: #092d3d;
+$navbar-dropdown-background-color: #092d3d;
+$navbar-dropdown-item-hover-background-color: #092d3d;
+$navbar-dropdown-item-active-background-color: #092d3d;
+$navbar-divider-background-color: #092d3d;
+$navbar-dropdown-item-hover-color: white;
+
+$box-background-color: #ebebf0;
+
+$button-focus-border-color: #eee;
+
+@mixin fullScreen {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
