@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./projects/traveller-app/src/**/*.{html, ts}"],
+  content: [
+    "./projects/traveller-app/src/**/*.{html, ts}",
+    "./projects/guards-demo/src/**/*.{html, ts}",
+  ],
   theme: {
     extend: {
       /** Add additonal colours to the default color palette  */
