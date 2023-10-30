@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+  <title>Desktop/Icon/BasicInfo</title>
+  <desc>Created with Sketch.</desc>
+  <g id="Desktop/Icon/BasicInfo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <path
+      d="M8,24 L8,24 C8,25.104 8.896,26 10,26 L30,26 C31.104,26 32,25.104 32,24 C32,22.896 31.104,22 30,22 L10,22 C8.896,22 8,22.896 8,24 M44,24 L44,24 C44,25.104 44.896,26 46,26 L54,26 C55.104,26 56,25.104 56,24 C56,22.896 55.104,22 54,22 L46,22 C44.896,22 44,22.896 44,24 M64,20 L64,52 C64,53.106 63.104,54 62,54 L2,54 C0.896,54 0,53.106 0,52 L0,16 C0,14.896 0.896,14 2,14 L31.394,14 L37.394,10 L62,10 C63.104,10 64,10.896 64,12 C64,13.106 63.104,14 62,14 L38.606,14 L32.606,18 L4,18 L4,50 L60,50 L60,20 C60,18.896 60.896,18 62,18 C63.104,18 64,18.896 64,20"
+      id="Fill-1" fill="#002233"></path>
+  </g>
+</svg>

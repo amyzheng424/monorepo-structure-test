@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+  <title>Desktop/Icon/Employment</title>
+  <desc>Created with Sketch.</desc>
+  <g id="Desktop/Icon/Employment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <path
+      d="M60,48 C60,49.104 59.106,50 58,50 L6,50 C4.894,50 4,49.104 4,48 L4,46 L56,46 L58,46 L60,46 L60,48 Z M56,10 C58.208,10 60,11.79 60,14 L60,14 L60,42 L62,42 C63.106,42 64,42.896 64,44 L64,44 L64,48 C64,51.314 61.314,54 58,54 L58,54 L6,54 C2.686,54 0,51.314 0,48 L0,48 L0,44 C0,42.896 0.894,42 2,42 L2,42 L56,42 L56,14 L8,14 L8,36 C8,37.104 7.106,38 6,38 C4.894,38 4,37.104 4,36 L4,36 L4,14 C4,11.79 5.792,10 8,10 L8,10 Z M42,26 C43.106,26 44,26.896 44,28 C44,29.104 43.106,30 42,30 L42,30 L22,30 C20.894,30 20,29.104 20,28 C20,26.896 20.894,26 22,26 L22,26 Z"
+      id="Fill-1" fill="#002233"></path>
+  </g>
+</svg>

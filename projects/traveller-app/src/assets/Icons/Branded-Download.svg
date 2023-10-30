@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="22px" viewBox="0 0 28 22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+  <title>Icon/Branded-Download</title>
+  <desc>Created with Sketch.</desc>
+  <g id="Icon/Branded-Download" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <path
+      d="M14,0 C14.553,0 15,0.447 15,1 L15,12.586 L18.293,9.293 C18.684,8.902 19.316,8.902 19.707,9.293 C19.902,9.488 20,9.744 20,10 C20,10.256 19.902,10.512 19.707,10.707 L14.707,15.707 C14.316,16.098 13.684,16.098 13.293,15.707 L8.293,10.707 C7.902,10.316 7.902,9.684 8.293,9.293 C8.684,8.902 9.316,8.902 9.707,9.293 L13,12.586 L13,1 C13,0.447 13.447,0 14,0 M26,13 L26,20 L2,20 L2,13 C2,12.447 1.553,12 1,12 C0.447,12 0,12.447 0,13 L0,22 L28,22 L28,13 C28,12.447 27.553,12 27,12 C26.447,12 26,12.447 26,13"
+      id="Fill-1" fill="#002233"></path>
+  </g>
+</svg>

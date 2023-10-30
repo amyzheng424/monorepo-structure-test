@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
@@ -15,7 +16,7 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     ForgotPasswordComponent,
     NotFoundComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [BrowserModule, CommonModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
