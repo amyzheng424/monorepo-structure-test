@@ -18,18 +18,19 @@ export class LoginComponent implements OnInit {
 
   login(): void {
     console.log("Try to Login'");
+    this.authService.login();
 
     //Todo:  start OAuth flow for validation
-    this.authService
-      .login({ username: this.username, password: this.password })
-      .subscribe((user) => {
-        if (user) {
-          const { name, email } = user;
-          console.log(`name: ${name}, email: ${email}`);
-          this.router.navigate(['portal']);
-        } else {
-          this.isLoginFailed = true;
-        }
-      });
+    // this.authService
+    //   .login({ username: this.username, password: this.password })
+    //   .subscribe((user) => {
+    //     if (user) {
+    //       const { name, email } = user;
+    //       console.log(`name: ${name}, email: ${email}`);
+    //       this.router.navigate(['portal']);
+    //     } else {
+    //       this.isLoginFailed = true;
+    //     }
+    //   });
   }
 }

@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
+import { AuthConfigModule } from './auth/auth-config.module';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
@@ -16,7 +18,13 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     ForgotPasswordComponent,
     NotFoundComponent,
   ],
-  imports: [BrowserModule, CommonModule, AppRoutingModule, FormsModule],
+  imports: [
+    BrowserModule,
+    CommonModule,
+    AppRoutingModule,
+    FormsModule,
+    AuthConfigModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
