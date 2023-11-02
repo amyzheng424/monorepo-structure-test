@@ -1,1 +1,5 @@
-<p>Portal Home works!</p>
+<div *ngIf="authService.user$ | async as user">
+  <h1>
+    Welcome, <b>{{ user.nickname }}</b>
+  </h1>
+</div>

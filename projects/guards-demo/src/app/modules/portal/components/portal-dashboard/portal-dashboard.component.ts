@@ -12,7 +12,7 @@ import { AuthService } from '@auth0/auth0-angular';
 export class PortalDashboardComponent implements OnInit {
   constructor(
     private router: Router,
-    private authService: AuthService // private oidcSecurityService: OidcSecurityService
+    public authService: AuthService // private oidcSecurityService: OidcSecurityService
   ) {}
   ngOnInit(): void {
     // this.oidcSecurityService

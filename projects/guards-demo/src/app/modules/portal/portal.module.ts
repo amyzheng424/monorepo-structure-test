@@ -6,6 +6,7 @@ import { HomeComponent } from '../portal/components/home/home.component';
 import { AboutComponent } from '../portal/components/about/about.component';
 import { ContactComponent } from '../portal/components/contact/contact.component';
 import { PortalDashboardComponent } from '../portal/components/portal-dashboard/portal-dashboard.component';
+import { LoadingComponent } from '../../components/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { PortalDashboardComponent } from '../portal/components/portal-dashboard/
     AboutComponent,
     ContactComponent,
     PortalDashboardComponent,
+    LoadingComponent,
   ],
   imports: [CommonModule, PortalRoutingModule],
 })
