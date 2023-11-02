@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthService } from '../../services/auth/auth.service';
+// import { AuthService } from '../../services/auth/auth.service';
+import { AuthService } from '@auth0/auth0-angular';
 import { catchError } from 'rxjs';
 
 @Component({
@@ -18,7 +19,9 @@ export class LoginComponent implements OnInit {
 
   login(): void {
     console.log("Try to Login'");
-    this.authService.login();
+    this.authService.loginWithRedirect({ appState: { target: '/portal' } });
+
+    // this.authService.login();
 
     //Todo:  start OAuth flow for validation
     // this.authService

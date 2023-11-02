@@ -37,7 +37,14 @@ Note. make sure to add a ".gitignore" at the project level as well to ignore com
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `ng generate component component-name --project=[project-name]` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+Note.
+
+- run the CLI commands at the root of monorepo directory
+- "--project" flag allows us to specifiy which project the component will belong to.
+  e.g. `ng g c components/auth-button --project=traveller-portal`
+  this command will create an auth-button component under the "components" subdirectory within the "traveller-portal" application.
 
 ## Development server
 
