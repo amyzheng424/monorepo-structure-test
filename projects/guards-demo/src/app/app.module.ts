@@ -26,8 +26,8 @@ import { AuthModule } from '@auth0/auth0-angular';
     FormsModule,
     // Import the module into the application, with configuration
     AuthModule.forRoot({
-      domain: 'dev-vc2j7s7bunl0jlhn.us.auth0.com',
-      clientId: '8Ae5Qpm0GNbI0tHdEKpaziIfZ9MPokDa',
+      domain: 'testcompany.uk.auth0.com',
+      clientId: 'mjozZJWYT2yliDwdHMk81UA8fvFhAvlB',
       authorizationParams: {
         redirect_uri: window.location.origin + '/portal',
       },
