@@ -3,21 +3,34 @@
 </div>
 
 <ng-template #loaded>
-  <div class="flex flex-col h-full p-4">
-    <nav class="flex items-center justify-between mb-10">
-      <div>My Portal Dashboard</div>
-      <ul class="flex space-x-4">
-        <li routerLinkActive="active"><a routerLink="./home">Home</a></li>
-        <li routerLinkActive="active"><a routerLink="./about">About</a></li>
-        <li routerLinkActive="active"><a routerLink="./contact">Contact</a></li>
-        <li>
-          <a (click)="logout()">logout</a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="grow main-content bg-yellow p-10 h-full">
-      <router-outlet></router-outlet>
-    </div>
+  <div class="min-h-screen flex flex-col">
+    <header class="flex-none bg-navy-blue text-white text-4xl font-bold p-8">
+      Header
+    </header>
+    <main class="bg-gray-50 grow overflow-y-auto text-3xl">
+      <div class="flex flex-col h-full p-4">
+        <ng-container *ngTemplateOutlet="navigator"></ng-container>
+        <div class="grow main-content bg-yellow p-10 h-full">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </main>
+    <footer class="flex-none bg-gray-500 text-white text-4xl font-bold p-8">
+      Footer
+    </footer>
   </div>
+</ng-template>
+
+<ng-template #navigator>
+  <nav class="flex items-center justify-between mb-10">
+    <div>My Portal Dashboard</div>
+    <ul class="flex space-x-4">
+      <li routerLinkActive="active"><a routerLink="./home">Home</a></li>
+      <li routerLinkActive="active"><a routerLink="./about">About</a></li>
+      <li routerLinkActive="active"><a routerLink="./contact">Contact</a></li>
+      <li>
+        <a (click)="logout()">logout</a>
+      </li>
+    </ul>
+  </nav>
 </ng-template>
