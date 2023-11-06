@@ -8,9 +8,9 @@ This project is organised in the Monorepo structure, basically, all code, projec
 
 The root is the Angular workspace, any Anguar project or library project can be added onto the monorepo workspace by using Angular CLI.
 
-For instance, to add a new project into the monorepo, you can run 'ng generate application [project-name]' at the root of the monorepo directory. Angular will auto add the new project into the "projects" session within the angular.json file.
+For instance, to add a new project into the monorepo, you can run `ng generate application [project-name]` at the root of the monorepo directory. Angular will auto add the new project into the "projects" section within the `angular.json` file.
 
-Similarily, you can also add a new Angular library project by running 'ng generate library [library-name]' at the root of the monorepo directory.
+Similarily, you can also add a new Angular library project by running `ng generate library [library-name]` at the root of the monorepo directory.
 e.g.
 $ ng g lib shared-ui-components --project-root=libraries/shared/ui-components
 
@@ -37,7 +37,12 @@ Note. make sure to add a ".gitignore" at the project level as well to ignore com
 
 ## Code scaffolding
 
-Run `ng generate component component-name --project=[project-name]` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- generate a new module within a project
+- generate a new component
+  Run `ng generate component component-name --project=[project-name]` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+- generate a new shared library
+-
 
 Note.
 
